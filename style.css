@@ -1,0 +1,47 @@
+@font-face {
+    font-family: ATSH Bold;
+    src: url('/fonts/Posterama\ 2001\ W01\ Bold.ttf');
+}
+
+@font-face {
+    font-family: Jura;
+    src: url('/fonts/Jura-VariableFont_wght.ttf');
+}
+
+nav {
+    backdrop-filter: blur(100px);
+    font-family: Jura;
+}
+nav a{
+    color: white !important;
+}
+.buy {
+    margin-left: 36.5em;
+}
+
+.video-container {
+    background: linear-gradient(90deg, #000000a1 40%, #ffffff10);
+    height: 120.5vh;
+    font-family: Jura;
+}
+
+.video {
+    z-index: -1 !important;
+    width: 100vw;
+}
+
+.heading {
+    padding-top: 4em;
+    font-family: Jura;
+}
+
+.heading span {
+    font-weight: bolder !important;
+    font-family: ATSH Bold;
+}
+.second-heading{
+    font-family: Jura;
+}
+.video-container p{
+    font-family: Jura;
+}
